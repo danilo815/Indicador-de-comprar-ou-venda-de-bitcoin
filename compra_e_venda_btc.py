@@ -2,7 +2,7 @@ import requests
 import time
 from plyer import notification
 
-api_key = "8d5cff2c8f674f178d323b92c6669a8a"
+api_key = "SUA_CHAVE_AQUI"
 url = "https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest"
 parametros = {"symbol": "BTC", "convert": "BRL"}
 headers = {"Accepts": "application/json", "X-CMC_PRO_API_KEY": api_key}
